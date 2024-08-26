@@ -58,5 +58,8 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
 
-      - name: "webhook"
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Trigger deploy webhook"
         run: curl -X POST "${{ secrets.WEBHOOK_URL }}"
