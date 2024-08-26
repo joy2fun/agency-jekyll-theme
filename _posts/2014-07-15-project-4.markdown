@@ -1,6 +1,6 @@
 ---
-title: Treehouse
-subtitle: Website Design
+title: 协会管理系统
+subtitle: 为体育协会提供会员管理、活动组织、财务统计等一站式服务
 layout: default
 modal-id: 4
 date: 2014-07-15

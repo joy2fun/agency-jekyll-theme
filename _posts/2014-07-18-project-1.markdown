@@ -1,6 +1,6 @@
 ---
-title: Dreams
-subtitle: Website Design
+title: 体育赛事管理系统
+subtitle: 为各类体育赛事提供全面的管理解决方案，包括赛事报名、赛程安排、成绩统计等
 layout: default
 modal-id: 1
 date: 2014-07-18

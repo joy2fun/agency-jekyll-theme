@@ -1,6 +1,6 @@
 ---
-title: Round Icons
-subtitle: Graphic Design
+title: 慢病管理系统
+subtitle: 通过数字化手段，帮助慢病患者进行健康管理，提高生活质量
 layout: default
 modal-id: 6
 date: 2014-07-15

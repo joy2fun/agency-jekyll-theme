@@ -1,6 +1,6 @@
 ---
-title: Startup Framework
-subtitle: Website Design
+title: 运动处方系统
+subtitle: 根据个人健康状况和运动需求，提供个性化的运动指导方案
 layout: default
 modal-id: 5
 date: 2014-07-14

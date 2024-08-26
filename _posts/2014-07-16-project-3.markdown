@@ -1,6 +1,6 @@
 ---
-title: Golden
-subtitle: Website Design
+title: 游泳馆安全管理系统
+subtitle: 通过智能监控和预警系统，保障游泳馆的安全运营，减少事故风险
 layout: default
 modal-id: 3
 date: 2014-07-16
