@@ -2,7 +2,7 @@ name: Create and publish a Docker image
 
 on:
   push:
-    branches: ['gh-pages']
+    branches: ['master']
     tags:
       - '*'
 
@@ -39,13 +39,11 @@ jobs:
         with:
           ruby-version: 3.1  # Specify Ruby version compatible with your Jekyll setup
 
-      - name: Install Jekyll and Bundler
-        run: |
-          gem install bundler jekyll
-          bundle install
+      - name: Install Jekyll
+        run: gem install jekyll
 
       - name: Build Jekyll site
-        run: bundle exec jekyll build
+        run: jekyll build
 
       - name: Build Docker image
         run: |
