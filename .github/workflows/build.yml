@@ -60,6 +60,7 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
+    needs: build-image
     steps:
       - name: "Trigger deploy webhook"
         run: curl -X POST "${{ secrets.WEBHOOK_URL }}"
