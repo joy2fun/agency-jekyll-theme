@@ -1,4 +1,4 @@
-name: Create and publish a Docker image
+name: build image & deploy
 
 on:
   push:
@@ -11,7 +11,7 @@ env:
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
-  build-and-push-image:
+  build-image:
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -58,5 +58,9 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
 
-      - name: "webhook"
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build-image
+    steps:
+      - name: "Trigger deploy webhook"
         run: curl -X POST "${{ secrets.WEBHOOK_URL }}"
