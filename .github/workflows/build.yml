@@ -57,6 +57,18 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+      
+      - name: Login to aliyun
+        uses: aliyun/acr-login@v1
+        with:
+          login-server: 'registry.cn-shanghai.aliyuncs.com'
+          username: '${{ secrets.REGISTRY_USERNAME }}'
+          password: '${{ secrets.REGISTRY_PASSWORD }}'
+      
+      - name: push to aliyun
+        run: |
+          docker build -t registry.cn-shanghai.aliyuncs.com/dysh/mirror:website .
+          docker push registry.cn-hangzhou.aliyuncs.com/dysh/mirror:website
 
   deploy:
     runs-on: ubuntu-latest
