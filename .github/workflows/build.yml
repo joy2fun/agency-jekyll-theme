@@ -68,11 +68,11 @@ jobs:
       - name: push to aliyun
         run: |
           docker build -t registry.cn-shanghai.aliyuncs.com/dysh/mirror:website .
-          docker push registry.cn-hangzhou.aliyuncs.com/dysh/mirror:website
+          docker push registry.cn-shanghai.aliyuncs.com/dysh/mirror:website
 
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build-image
-    steps:
-      - name: "Trigger deploy webhook"
-        run: curl -X POST "${{ secrets.WEBHOOK_URL }}"
+  # deploy:
+  #   runs-on: ubuntu-latest
+  #   needs: build-image
+  #   steps:
+  #     - name: "Trigger deploy webhook"
+  #       run: curl -X POST "${{ secrets.WEBHOOK_URL }}"
