@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: 运动处方系统是一款专为追求健康生活方式的您量身定制的智能解决方案。结合先进的算法与专业的健康指导，本系统能够根据您的个人健康状况、体能水平及具体运动需求，为您生成个性化的运动指导方案。无论您是健身新手还是资深爱好者，只需轻松几步输入基本信息，即可获得专属的训练计划。我们致力于帮助每一位用户实现科学锻炼、有效提升体能的目标，让健康触手可及。此外，运动处方系统还提供持续跟踪与评估功能，确保您的每一次进步都得到记录，助您达成理想中的健康状态。
 
 ---

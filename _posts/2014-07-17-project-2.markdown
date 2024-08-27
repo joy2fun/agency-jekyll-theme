@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: 体育场馆预定系统是一款专为体育场馆设计的智能化管理平台，集在线预订、场地管理、会员服务等功能于一体。借助便捷的预订流程与高效的管理工具，场馆管理者可以轻松处理场地预订、安排活动日程、管理会员信息，大幅提升运营效率和服务质量。无论是为用户提供个性化的预订体验，还是确保场馆资源的有效利用，体育场馆预定系统都能提供一站式解决方案，让管理变得更加简单高效，助力场馆吸引更多顾客，创造更多价值。
 
 ---

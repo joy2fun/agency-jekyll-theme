@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: 体育赛事管理系统是一款专为各类体育赛事打造的全面管理解决方案。系统涵盖赛事报名、赛程安排、成绩统计等多个关键环节，为赛事组织者提供一站式的管理工具。凭借其直观的操作界面与强大的后台支持，不仅能够简化赛事筹备流程，还能确保比赛顺利进行。无论是提升参赛者的报名体验，还是优化观众的观赛感受，体育赛事管理系统都能为每一场赛事的成功举办提供坚实的技术后盾，让精彩赛事尽在掌握之中。
 
 ---

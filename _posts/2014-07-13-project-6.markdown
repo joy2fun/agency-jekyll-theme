@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: 慢病管理系统是一个集成规则引擎与先进数字化技术的健康管理平台，旨在为慢性疾病患者提供全方位的支持与关怀。通过智能化的数据分析与个性化的健康建议，系统能够帮助患者更好地理解自身病情、监测身体变化、调整生活习惯，从而有效控制疾病进展，提升生活质量。无论是日常用药提醒、定期检测指标，还是在线咨询专家、获取专业指导，慢病管理系统都能为您提供一站式服务，让您在健康管理的道路上不再孤单，携手共创更健康的未来。
 
 ---

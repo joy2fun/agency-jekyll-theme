@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: 协会管理系统是专为体育协会打造的一站式服务平台，集会员管理、活动组织、财务统计等功能于一体。通过直观易用的操作界面，协会可以高效地管理会员资料、组织丰富多彩的体育活动、跟踪财务收支情况，确保协会运营的顺畅与透明。无论是提升会员服务体验、促进社区活跃度，还是加强内部管理与协作，协会管理系统都能提供强有力的支持，助力体育协会蓬勃发展，共同推动体育事业的进步。
 
 ---

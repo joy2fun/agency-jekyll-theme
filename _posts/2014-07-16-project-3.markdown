@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: 游泳馆安全管理系统是一款集智能监控与预警技术于一体的综合安全管理平台。通过实时视频监控、智能分析算法以及紧急响应机制，系统能够有效监测游泳馆内的活动情况，及时发现潜在的安全隐患，迅速采取措施以预防事故发生。从泳池水质监测到人员行为识别，从紧急呼叫到救援指导，游泳馆安全管理系统为场馆管理者提供全方位的安全保障，确保每位访客都能享受安全舒适的游泳体验，让游泳馆成为更加安心的选择。
 
 ---
