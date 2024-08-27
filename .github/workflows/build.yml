@@ -60,4 +60,4 @@ jobs:
     needs: build-image
     steps:
       - name: "Trigger deploy webhook"
-        run: curl -q "${{ env.WEBHOOK_URL }}"
+        run: curl -q "${{ vars.WEBHOOK_URL }}"
