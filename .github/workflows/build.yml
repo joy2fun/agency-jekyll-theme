@@ -55,9 +55,15 @@ jobs:
           docker build -t registry.cn-shanghai.aliyuncs.com/dysh/mirror:website .
           docker push registry.cn-shanghai.aliyuncs.com/dysh/mirror:website
 
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build-image
-    steps:
-      - name: "Trigger deploy webhook"
-        run: curl -q "${{ vars.WEBHOOK_URL }}"
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          event-type: deploy
+          repository: joy2fun/deploy
+          token: ${{ secrets.PAT }}
+          client-payload: |-
+            {
+              "host": "w1",
+              "project": "website",
+              "type": ""
+            }
