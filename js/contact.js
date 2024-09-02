@@ -45,7 +45,7 @@ $(function() {
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-danger').append("系统繁忙，请稍后再试或发送邮件给管理员：tech"+"@"+"dy.sh.cn");
+                    $('#success > .alert-danger').append("系统繁忙，请稍后再试或发送邮件给管理员： contact"+"@"+"dy.sh.cn");
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
